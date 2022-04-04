@@ -1,2 +1,2 @@
-# tfg-hospital
+# TFG-hospital
 App para gestionar medicamentos y recetas en un hospital
