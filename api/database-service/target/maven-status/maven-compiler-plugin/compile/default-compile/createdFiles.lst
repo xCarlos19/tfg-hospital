@@ -1,0 +1,7 @@
+com\mislata\hospital\model\Medicamento.class
+com\mislata\hospital\model\Receta.class
+com\mislata\hospital\model\Usuario.class
+com\mislata\hospital\model\Paciente.class
+com\mislata\hospital\model\Sanitario.class
+com\mislata\hospital\repository\UsuarioRepository.class
+com\mislata\hospital\model\Rol.class
