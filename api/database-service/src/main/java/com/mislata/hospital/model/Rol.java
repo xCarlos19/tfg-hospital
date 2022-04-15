@@ -12,6 +12,7 @@ import javax.persistence.ManyToMany;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.FieldNameConstants.Exclude;
 
 @Entity
 @Data
@@ -22,11 +23,10 @@ public class Rol {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer idRol;
-	
+
 	@Column(nullable = false)
 	private String nombreRol;
 	private String descripcion;
+
 	
-	@ManyToMany(mappedBy = "roles")
-	private Set<Usuario> usuarios;
 }

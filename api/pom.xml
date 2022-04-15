@@ -25,6 +25,8 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		
+		
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -34,6 +36,11 @@
 
 	<dependencyManagement>
 		<dependencies>
+		<dependency>
+				<groupId>io.jsonwebtoken</groupId>
+				<artifactId>jjwt</artifactId>
+				<version>0.9.1</version>
+			</dependency>
 			<dependency>
 				<groupId>com.mislata</groupId>
 				<artifactId>database-service</artifactId>
@@ -49,6 +56,16 @@
 				<artifactId>auth-service</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>com.mislata</groupId>
+				<artifactId>medicamento-service</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.mislata</groupId>
+				<artifactId>receta-service</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -56,6 +73,8 @@
 		<module>database-service</module>
 		<module>hospital-service</module>
 		<module>auth-service</module>
+		<module>medicamento-service</module>
+		<module>receta-service</module>
 	</modules>
 
 </project>

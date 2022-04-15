@@ -2,6 +2,7 @@ package com.mislata.hospital.model;
 
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -35,7 +36,8 @@ public class Receta {
 	@JoinColumn(name="id_paciente",nullable = false)
 	private Paciente paciente;
 	
-	@ManyToMany
+	@ManyToMany(cascade = {CascadeType.DETACH, 
+	        CascadeType.MERGE})
 	@JoinTable(
 			name = "receta_medicamentos",
 			joinColumns = @JoinColumn(name="id_receta"),

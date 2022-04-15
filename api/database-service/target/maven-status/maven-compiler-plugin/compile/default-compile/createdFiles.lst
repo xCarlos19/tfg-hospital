@@ -1,7 +1,12 @@
+com\mislata\hospital\model\dto\MedicamentoDTO.class
 com\mislata\hospital\model\Medicamento.class
 com\mislata\hospital\model\Receta.class
 com\mislata\hospital\model\Usuario.class
+com\mislata\hospital\repository\MedicamentoRepository.class
+com\mislata\hospital\configuration\Mapper.class
+com\mislata\hospital\repository\RecetaRepository.class
 com\mislata\hospital\model\Paciente.class
 com\mislata\hospital\model\Sanitario.class
 com\mislata\hospital\repository\UsuarioRepository.class
+com\mislata\hospital\model\dto\RecetaDTO.class
 com\mislata\hospital\model\Rol.class

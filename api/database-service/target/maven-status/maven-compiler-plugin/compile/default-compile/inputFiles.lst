@@ -1,7 +1,12 @@
 C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\model\Paciente.java
 C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\repository\UsuarioRepository.java
 C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\model\Usuario.java
+C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\repository\RecetaRepository.java
 C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\model\Receta.java
+C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\model\dto\MedicamentoDTO.java
+C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\model\dto\RecetaDTO.java
 C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\model\Rol.java
+C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\configuration\Mapper.java
 C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\model\Sanitario.java
+C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\repository\MedicamentoRepository.java
 C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\database-service\src\main\java\com\mislata\hospital\model\Medicamento.java

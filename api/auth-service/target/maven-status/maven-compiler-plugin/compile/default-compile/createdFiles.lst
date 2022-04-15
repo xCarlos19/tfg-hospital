@@ -1,3 +1,4 @@
+com\mislata\hospital\model\JwtToken.class
+com\mislata\hospital\service\AuthServiceImpl.class
 com\mislata\hospital\service\AuthService.class
 com\mislata\hospital\controller\AuthRestController.class
-com\mislata\hospital\service\AuthServiceImpl.class

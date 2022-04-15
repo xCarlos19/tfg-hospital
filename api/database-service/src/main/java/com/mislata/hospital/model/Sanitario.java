@@ -28,9 +28,6 @@ public class Sanitario {
 	private Integer edad;
 	
 	@OneToMany(mappedBy = "sanitario")
-	private Set<Medicamento> medicamentos;
-	
-	@OneToMany(mappedBy = "sanitario")
 	private Set<Receta> recetas;
 	
 	@OneToOne(mappedBy = "sanitario")
