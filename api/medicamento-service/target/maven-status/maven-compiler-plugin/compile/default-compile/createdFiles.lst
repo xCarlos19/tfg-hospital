@@ -1,0 +1,3 @@
+com\mislata\hospital\service\MedicamentoService.class
+com\mislata\hospital\contoller\MedicamentoRestController.class
+com\mislata\hospital\service\MedicamentoServiceImpl.class

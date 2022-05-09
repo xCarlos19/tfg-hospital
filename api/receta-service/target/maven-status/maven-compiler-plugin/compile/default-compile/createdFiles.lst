@@ -1,0 +1,3 @@
+com\mislata\hospital\service\RecetaServiceImpl.class
+com\mislata\hospital\controller\RecetaRestController.class
+com\mislata\hospital\service\RecetaService.class
