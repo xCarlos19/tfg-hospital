@@ -1,9 +1,11 @@
 package com.mislata.hospital.model;
 
+import java.time.LocalDateTime;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -26,6 +28,7 @@ public class Receta {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer IdReceta;
 	private String descripcion;
+	private LocalDateTime fechaCreacion;
 	
 	
 	@ManyToOne
@@ -35,9 +38,8 @@ public class Receta {
 	@ManyToOne
 	@JoinColumn(name="id_paciente",nullable = false)
 	private Paciente paciente;
-	
-	@ManyToMany(cascade = {CascadeType.DETACH, 
-	        CascadeType.MERGE})
+
+	@ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.DETACH, CascadeType.MERGE})
 	@JoinTable(
 			name = "receta_medicamentos",
 			joinColumns = @JoinColumn(name="id_receta"),

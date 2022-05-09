@@ -66,6 +66,11 @@
 				<artifactId>receta-service</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>com.mislata</groupId>
+				<artifactId>paciente-service</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -75,6 +80,7 @@
 		<module>auth-service</module>
 		<module>medicamento-service</module>
 		<module>receta-service</module>
+		<module>paciente-service</module>
 	</modules>
 
 </project>

@@ -1,4 +1,7 @@
-C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\auth-service\src\main\java\com\mislata\hospital\service\AuthService.java
+C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\auth-service\src\main\java\com\mislata\hospital\filtro\JwtTokenFilter.java
+C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\auth-service\src\main\java\com\mislata\hospital\service\UsuarioDetailsService.java
 C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\auth-service\src\main\java\com\mislata\hospital\model\JwtToken.java
 C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\auth-service\src\main\java\com\mislata\hospital\controller\AuthRestController.java
-C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\auth-service\src\main\java\com\mislata\hospital\service\AuthServiceImpl.java
+C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\auth-service\src\main\java\com\mislata\hospital\model\UsuarioDetails.java
+C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\auth-service\src\main\java\com\mislata\hospital\configuration\SecurityConfiguration.java
+C:\Users\Juan Carlos\Documents\EclipseProjects\tfg-hospital\api\auth-service\src\main\java\com\mislata\hospital\service\JwtTokenUtil.java

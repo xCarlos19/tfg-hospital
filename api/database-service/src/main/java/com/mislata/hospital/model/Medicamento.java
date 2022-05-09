@@ -11,9 +11,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
+import org.hibernate.annotations.Cascade;
+import org.springframework.transaction.annotation.Transactional;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString.Exclude;
 
 @Entity
 @Data
@@ -23,10 +27,11 @@ public class Medicamento {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer IdMedicamento;
+	private Integer idMedicamento;
 	@Column(nullable = false)
 	private String nombre;
 	private String descripcion;
+	private String fabricante;
 	
 	@ManyToMany(mappedBy = "medicamentos")
 	private Set<Receta> recetas;
